@@ -1,0 +1,33 @@
+.App{
+  background-color: #eee;
+  padding: 50px;
+  text-align: center;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 1px solid rgb(46, 46, 46);
+}
+
+.App ul li{
+  list-style-type: "📌";
+  text-align: left;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+.App ul li.done{
+  list-style-type: "Done ✅";
+  text-decoration:line-through;
+}
+.App ul div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px ;
+}
+.App ul div span{
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
